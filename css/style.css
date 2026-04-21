@@ -1,0 +1,657 @@
+@font-face
+{
+    font-family: cairo_font;
+    src : url('../fonts/Poppins-Regular.ttf');
+}
+
+                                                  /* sitting up the whole website*/
+
+body {
+  font-family: cairo_font;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow:hidden;
+  padding-top:70px;
+}
+
+ 
+
+
+h1, h2, h3, h4, h5, .lead {
+    font-family: 'Droid Sans', sans-serif;
+    }
+
+
+
+/******* Start Overriding Bootstrap ******/
+
+/* Main Navbar */
+
+.navbar {
+    min-height:70px;
+    }
+
+/* Navbar Link */
+
+.navbar-inverse .navbar-nav > li > a {
+    color:#BBB;
+    padding-top:25px;
+    padding-bottom:25px;
+    font-size:16px
+}
+
+
+
+/* Brand Name */
+
+.navbar-inverse .navbar-brand {
+    color:#BBB;
+    font-size:30px;
+    line-height:40px
+}
+
+
+
+
+/* Dropdown Menu */
+
+.dropdown-menu {
+    background-color:#333;
+    min-width:200px
+    }
+
+.navbar-right .dropdown-menu{
+    left:0;
+    right:auto
+    }
+
+
+.dropdown-menu > li > a {
+    color:#FFF;
+    padding:6px 20px;
+    transition: padding 0.5s ease;
+    
+    }
+
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  color:#FFF;
+  padding-left:25px
+  }
+
+
+
+.dropdown-menu .divider {
+  background-color:#871818;
+  }
+
+
+
+/* Navbar Toggle */
+
+.navbar-toggle {margin-top:18px}
+
+
+
+
+/* Carousel */
+
+.carousel-caption {
+    bottom:170px;
+    padding-right:20px;
+    padding-left:20px;
+    text-align: left;
+}
+
+
+.carousel-indicators {
+    bottom:0;
+    }
+
+
+.carousel-indicators li {
+    height:15px;
+    width:15px;
+    border:1px solid #EEE;   
+}
+
+
+.carousel-indicators .active {
+    height:17px;
+    width:17px;
+    background-color: #EEE;
+    }
+
+
+
+.carousel-inner > .item > img {
+    width:100%;
+    }
+
+
+
+.join_us{
+    color: #fff;
+    width: 192px;
+    height: 31px;
+    background-color: #3a6cf4;
+    margin-bottom: 35px;
+    border-radius:40px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 13px 20px;
+    margin-left: 130px;
+    margin-top: 150px;
+}
+
+
+.join_us:hover{
+   background-color: #052A87;
+}
+/******* End Overriding Bootstrap ******/
+
+
+
+
+
+/* Start Section category Table */
+
+.cate_table {background:white;}
+
+
+
+.cate_table h2{
+    color: blue;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+
+.cate_table .cate_box {
+    
+    padding:10px;
+    border:1px solid #DDD;
+    margin-bottom:15px
+}
+
+.cate_table .cate_box_1{
+    background:#009AFF;
+}
+
+.cate_table .cate_box_2{
+    background:#2205B2;
+}
+
+.cate_table .cate_box_3{
+    background:#CE5D12;
+}
+
+.cate_table .cate_box_4{
+    background:#D624CA;
+}
+
+.cate_table .cate_box_5{
+    background:#954CE8;
+}
+
+.cate_table .cate_box_6{
+    background:#FF6A00;
+}
+
+.cate_table .cate_box_7{
+    background:#26AD59;
+}
+
+.cate_table .cate_box_8{
+    background:#69E4EF;
+}
+
+
+
+.cate_table .cate_box h2 {
+    margin:50px 0 15px;
+    color:white;
+    }
+
+
+.cate_table .cate_box:hover img {
+    transform:scale(1.1,1.1) rotate(360deg);
+    border:2px solid #DFDFDF;
+    
+}
+
+
+.cate_table .cate_box img {
+
+    width:70px;
+    height:70px;
+    background:blue;
+    border-radius:50%;
+    line-height:100px;
+    border:2px solid #FFF;
+}
+
+/* End Section categories Table */
+
+
+
+
+
+/* Start Section Features */
+
+.features {
+    background:#D6F3FF;
+    }
+
+.features h2{
+    color: blue;
+    padding-bottom: 30px;
+    font-weight: bold;
+    
+}
+
+.feature h4{
+    
+    color: #009AFF;
+    font-weight: bold;
+    
+}
+
+
+
+.features .feature {
+    margin-bottom:30px
+    }
+
+
+.features .feature p {
+    line-height:2em
+    }
+
+
+.features .feature span.glyphicon {
+    font-size:25px;
+    margin-bottom:10px;
+    color:#666
+    }
+
+/* End Section Features */
+
+
+
+/* Start Section Stats */
+
+.statistics {
+   
+    min-height:300px
+}
+
+
+.statistics .data {
+    background-color:white;
+    color:black;
+    min-height:300px;
+
+}
+
+.statistics h2{
+    color: blue;
+    padding-bottom: 80px;
+    font-weight: bold;
+}
+
+.statistics .stats {
+    margin-bottom:30px;
+    border: solid 1px white;
+    width: 200px;
+    height: 230px;
+    border-radius: 30%;
+
+}
+
+
+.statistics .stats:hover {color:blue;}
+
+
+.statistics p {
+    font-size:60px;
+    font-weight:800;
+    margin-bottom:0;
+
+}
+
+.statistics span {font-size:18px}
+
+/* End Section Stats */
+
+
+
+
+
+/* Start Review Section */
+
+.stu-review {
+    background:#D6F3FF;
+    }
+
+
+.stu-review span {
+    font-size:20px;
+    font-weight:bold;
+    color: #009AFF;
+    padding-top: 20px; 
+    
+    }
+
+
+.stu-review .h1 {
+    margin-bottom:80px;
+    color: blue;
+    font-weight: bold;
+    
+    }
+
+.stu-review .lead {
+    line-height:2em;
+    margin-bottom:10px;
+    }
+
+
+.stu-review .carousel-inner {
+    min-height:160px;
+    }
+
+
+.stu-review .carousel-indicators {
+    position:static;
+    width:100%;
+    margin-left:auto;
+    padding-top:20px;
+}
+
+
+.stu-review .carousel-indicators li {
+    text-indent:0;
+    width:150px;
+    height:150px;
+    opacity:0.4;
+    border: 3px solid white;
+    border-radius:50%;
+    overflow:hidden;
+    margin:5px;
+}
+
+
+
+.stu-review .carousel-indicators li.active {
+    width:150px;
+    height:150px;
+    opacity:1;
+    background:none;
+    border: 3px solid #009AFF;
+}
+
+
+
+.stu-review .carousel-indicators li img {
+    max-width:100%;
+    }
+
+/* End Review Section */
+
+
+
+
+/* Start Section trending courses */
+
+
+.team .h1 {
+    margin-bottom:80px;
+    color: blue;
+    font-weight: bold;
+    
+    }
+ 
+    
+.our_team {
+    background-color:white;
+    min-height:600px;
+}
+
+
+.our_team .team {
+    background:white;
+    color:black;
+    min-height:600px;
+    }
+
+
+.our_team .person {
+    margin-bottom:40px;
+    background-color:#65D5F7;
+    
+    }
+
+/* End Section trending courses*/
+
+
+
+
+
+
+/* Start Section Subscribe */
+
+.subscribe {
+    background:#D6F3FF;
+    }
+
+
+.subscribe .h1 {
+    color:blue;
+    letter-spacing:2px;
+    margin-bottom:20px;
+    font-weight: bold;
+    }
+
+
+.subscribe p {
+    margin-bottom:30px;
+    }
+
+    
+.subscribe .form-control {
+    border-radius:0;
+    margin-right:-5px;
+    width:300px;
+    }
+
+    
+.subscribe button {
+    border-radius:0;
+    }
+
+/* End Section Subscribe */
+
+
+
+/* Start Ultimate Footer Section */
+
+.footer {
+    background:#111;
+    color:#AAA;
+    padding-top:10px;
+    }
+
+
+.footer h3 {
+    letter-spacing:1px;
+    margin:30px 0 20px;
+    }
+
+
+.footer a {
+    color:#AAA;
+    }
+
+
+.footer a:hover {
+    color:#FFF;
+    }
+
+
+.footer .three-columns {
+    overflow:hidden;
+    }
+
+
+.footer .three-columns li {
+    width:33.3333%;
+    float:left;
+    padding:5px 0;
+    }
+
+
+.footer .social-list {
+    overflow:hidden;
+    margin:20px 0 10px;
+    }
+
+
+.footer .social-list li {
+    float:left;
+    margin-right:3px;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+}
+
+
+.footer .social-list li:hover {
+    opacity:1
+    }
+
+
+.footer .img-thumbnail {
+    background:rgba(0,0,0,0.2);
+    border:1px solid #444;
+    margin-bottom:5px
+}
+
+
+.footer .copyright {
+    background:#333;
+    color:#AAA;
+    padding:15px 0;
+    margin-top:30px;
+    font-size:18px
+}
+
+/* End Ultimate Footer Section */
+
+
+
+
+
+/* Start Our Grouping */
+
+.our_team,
+.statistics,
+.contact-us {
+   
+    background-size:cover;
+}
+
+.our_team .h1,
+.statistics .h1,
+.features .h1,
+.our-skills .h1,
+.cate_table .h1 {
+    margin-bottom:50px;
+    }
+
+
+
+
+.social-list li,
+.our-clients img,
+.statistics .stats,
+.cate_table .cate_box img,
+.stu-review .carousel-indicators li {
+    transition:all .7s ease-in-out;
+}
+
+
+.statistics .data,
+.our_team .team,
+.contact-us .fields,
+.our-skills,
+.cate_table,
+.stu-review,
+.subscribe,
+.features,
+.about {
+    padding-top:40px;
+    padding-bottom:60px;
+    }
+
+/* End Our Grouping */
+
+
+
+
+
+
+
+
+
+/* Start Section Contact Us */
+
+.contact-us {
+    background:url('../images/landing.jpg') no-repeat  center fixed;
+    min-height:300px;   
+}
+
+
+.contact-us .fields h2 {
+    
+    min-height:30px;
+    color:blue;
+    font-weight: bold;
+    }
+
+
+
+.contact-us p {
+    margin-bottom:40px;
+    }
+
+
+
+.contact-us textarea {
+    height:108px;
+    }
+
+
+.contact-us input[type="text"],
+
+
+.contact-us textarea {
+    background:white;
+    color:grey;
+    font-size: 20px;
+    /*border:none;*/
+    }
+
+/* End Section Contact Us */
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,117 @@
+@font-face
+{
+    font-family: cairo_font;
+    src : url('../fonts/Poppins-Regular.ttf');
+}
+
+                                                  /* sitting up the whole website*/
+
+body {
+  font-family: cairo_font;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow:hidden;
+  padding-top:70px;
+}
+
+
+
+
+
+/* Start Global */
+
+.breadcrumb-holder {
+    background-color:#F5F5F5
+}
+
+.breadcrumb {
+    padding:10px 0;
+    margin:0
+}
+
+/* End Global */
+
+
+
+
+
+/* Start About Us */
+
+.about-us {
+    padding:70px 0
+}
+
+.about-us h1 {
+    font-family:cairo_font;
+    letter-spacing:2px;
+    font-size:35px;
+    font-weight: bold;
+    color: blue;
+}
+
+.about-us hr {
+    width:30%;
+    padding-bottom: 70PX;
+}
+
+.about-features {
+    padding:0 0 70px
+}
+
+.about-features h3 {
+    font-family:cairo_font;
+    letter-spacing:-1px;
+    color: #009AFF;
+    font-weight: bold;
+}
+
+.about-features p {
+    margin-bottom:20px
+}
+
+.about-ceo {
+    background-color:#EEE;
+    padding-top:40px
+}
+
+.about-ceo h2 {
+    font-family:cairo_font;
+    color: #009AFF;
+    font-weight: bold;
+}
+
+.about-ceo .lead {
+    line-height:1.8
+}
+
+.about-ceo .btn-primary {
+    background-color:#009AFF;
+    border-color:#009AFF;
+    display:inline-block;
+    margin-bottom:30px
+}
+
+.card_1{
+  background: #72E5D8;
+  margin-right: 120px;
+ 
+}
+
+.card_2{
+  background: #72E5D8;
+  margin-right: 120px;
+}
+
+.card_3{
+  background: #72E5D8;
+  margin-right: 50px;
+}
+
+/* End About US */
+
+
+
+
+
+

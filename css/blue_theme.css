@@ -1,0 +1,62 @@
+@font-face
+{
+    font-family: cairo_font;
+    src : url('../fonts/Poppins-Regular.ttf');
+}
+
+                                                  /* sitting up the whole website*/
+
+body {
+  font-family: cairo_font;
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow:hidden;
+  padding-top:70px;
+}
+
+
+
+
+
+
+/**** Start Default Theme ****/
+
+/* Active Link */
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.option-box .gear-check
+{
+    background-color:#009AFF
+}
+
+
+.carousel-indicators .active{
+    background-color:white;
+    
+}
+.navbar-inverse .navbar-brand span,
+.about h1 span,
+.testimonials span,
+.footer h3,
+.footer .copyright span
+{
+    color:#009AFF
+}
+
+.option-box .color-option,
+.testimonials .carousel-indicators li.active
+{
+    border: 3px solid #009AFF
+}
+
+.dropdown-menu
+{
+    border-top:3px solid #009AFF
+}
+
+/**** End Default Theme ****/
