@@ -46,7 +46,13 @@
 
 | Home Page - Hero | Course Categories |
 | :---: | :---: |
-| ![Home Hero](screenshots/home_hero.png) | ![Categories](screenshots/home_courses.png) |
+| <img width="1908" height="880" alt="image" src="https://github.com/user-attachments/assets/022b3caf-f9e6-421c-b7db-b04ef03c0737" />|
+| <img width="1893" height="869" alt="image" src="https://github.com/user-attachments/assets/814177fb-4457-4df4-bb90-caf6ddd10c31" />|
+| <img width="1897" height="835" alt="image" src="https://github.com/user-attachments/assets/1f7ef07e-3c41-4a7e-86b4-e7d3869acd4b" />|
+| <img width="1863" height="862" alt="image" src="https://github.com/user-attachments/assets/e2ba7aa9-a865-4f8e-a8e3-771011feea1a" />|
+
+
+
 
 | About Us | Registration |
 | :---: | :---: |
